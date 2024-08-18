@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <title>Google Ads</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        background-color: #8ca1b15e;
+        transition-duration: 50s;
+
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /*stor Value*/
+
+      /* header style*/
+      header {
+        background-color: #132c40f3;
+      }
+      .header_div {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        & img {
+          width: 100%;
+          box-shadow: 0px 0px 9px rgb(82, 151, 230);
+          border-radius: 10px 1px 10px;
+        }
+        & i {
+          color: white;
+          outline: 1px solid rgba(255, 255, 255, 0.283);
+          outline-offset: 15px;
+          border-radius: 2px;
+        }
+      }
+      /* Nave style */
+      nav {
+        & ul {
+          display: flex;
+          justify-content: center;
+          gap: auto;
+          row-gap: 10px;
+          justify-content: space-between;
+          background-color: #dbebf979;
+          width: auto;
+          /* height: 100px; */
+          padding: 100px 5px 30px;
+          & li {
+            text-decoration: none;
+            display: flex;
+            gap: 5px;
+            color: #422381;
+            margin: 5px;
+            font-size: 25px;
+            & a {
+              text-decoration: none;
+              color: rgb(11, 10, 10);
+            }
+          }
+        }
+      }
+      /*sears  bar  */
+      .last_fort div {
+        border-radius: 50px 0px 0px 50px;
+        background-color: #eeeeeef3;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin: 0px 0px 0px 30px;
+        & i {
+          padding: 10px;
+        }
+        & input {
+          font-size: 17px;
+          border: none;
+          background: #eeeeeef3;
+          padding: 8px 3px;
+        }
+        & input:active,
+        input:visited,
+        input:hover,
+        input:valid {
+          background-color: #ffffffa3;
+          border: none;
+          border-radius: 10px;
+          border-radius: 10px 1px 1px 10px;
+        }
+      }
+      /* Nave style End*/
+      /* table style*/
+      section {
+        /* display: flex; */
+        align-items: right;
+        justify-content: space-between;
+      }
+      table {
+        width: 100%;
+        height: 10px;
+        gap: 10px;
+        border-collapse: collapse;
+        font-size: 19px;
+        padding-left: 10px;
+        /*! button style*/
+        & button {
+          color: white;
+          background: #1e90ff;
+          padding: 10px 15px;
+          margin: 5px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          transition-duration: 0.5s;
+        }
+        & button:active {
+          transform: scale(1.2);
+          background: #e4eaefd0;
+        }
+      }
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid rgba(63, 60, 60, 0.349);
+        padding: 10px 5px;
+        text-align: center;
+      }
+
+      iframe {
+        width: 400px;
+        height: 200px;
+        margin: 10px 2%;
+        /* play:autoplay; */
+      }
+      .img-div {
+        position: absolute;
+        width: 390px;
+        height: 200px;
+        margin: 10px 2%;
+        /*background-image: url(img_file/img-ins.jpg); */
+        background-color: rgba(0, 0, 0, 0.582);
+        background-size: cover;
+
+        & .perans {
+        }
+      }
+      & .instar {
+        /* position: relative; */
+
+        left: 1%;
+        margin: 8px 10px;
+        display: flex;
+        gap: -1px;
+
+        & a:hover {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header_div">
+        <div class="right">
+          <img src="ads.png" height="50px" alt="img is not fund" />
+        </div>
+
+        <div>
+          <h1><i class="fa-solid fa-bars"></i></h1>
+        </div>
+      </div>
+    </header>
+    <!--* navar start -->
+    <nav>
+      <ul>
+        <li class="li1">
+          <i class="fa-brands fa-airbnb"></i> <a href="#"> All</a>
+        </li>
+        <li></li>
+        <li class="li1">
+          <i class="fa-solid fa-spinner"></i> <a href="#">pending</a>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-bars-progress"></i> <a href="#">Inprogress</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-check fa-bounce"></i>
+          <a href="#">Completed</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-chart-column fa-shake"></i>
+          <a href="#"> Partial</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-satellite-dish"></i> <a href="#">Processing</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-xmark"></i> <a href="#">Deled</a>
+        </li>
+        <li class="last_fort">
+          <div>
+            <span> <i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="search" placeholder="Search" />
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!--* navar end-->
+    <!-- section-1 -->
+
+    <section>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Date</th>
+          <th>Link</th>
+          <td>Charge</td>
+          <td>startcount</td>
+          <td>Quantity</td>
+          <td>Service</td>
+          <td>Remains</td>
+          <td>Status</td>
+          <td>report</td>
+        </tr>
+        <!--! tr tro-->
+        <tr>
+          <td>223097314</td>
+          <td>
+            2024-08-11 <br />
+            12:5:34am
+          </td>
+          <!--* link-->
+
+          <td>
+            <a href="https://open.spotify.com/track/1EkZ8E4zmRNzQtaSLILa1m"
+              >https://open.spotify.com/track</a
+            >
+          </td>
+          <td>$9</td>
+          <td>40409</td>
+          <td>2000</td>
+          <td>
+            ID.6775 - Spotify Plays [USA] [Speed 10-50K Daily] [Max: 100M]
+            [Lifetime Guaranteed] INSTANT-3HRS
+          </td>
+          <td>0</td>
+          <td>
+            <i class="fa-regular fa-circle-check fa-bounce"></i> Completed
+          </td>
+
+          <td>
+            <button onclick="alert('Your order is complete')">report</button>
+            <button onclick="alert(' Google Ads ')">Refill</button>
+          </td>
+        </tr>
+      </table>
+      <!--* video link-->
+
+      <div class="img-div">
+        <!--! img calonai-->
+
+
+          <a
+            href="https://open.spotify.com/artist/4vStvyCH0ycfNiTqOYilCM"
+          >
+            <img
+              width="100px"
+              height="100px"
+              src="img_file/img-sotifi.png"
+              alt=""
+            />
+          </a>
+
+
+        <!--! monibigo imgstile-->
+
+        <!-- <div class="instar">
+          <a
+            href="https://www.instagram.com/reel/C6uEBMwPQNQ/?igsh=MThiam81bDZqbDlmNg=="
+          >
+            <img
+              width="20px"
+              height="20px"
+              src="img_file/instargam.png"
+              alt=""
+            />
+          </a>
+          <div>
+            <a
+              href="https://www.instagram.com/reel/C6uEBMwPQNQ/?igsh=MThiam81bDZqbDlmNg=="
+              >moneybaggyo</a
+            >
+          </div>
+        </div> -->
+      </div>
+
+      <!--! lik -->
+      <!--! <iframe src="https://www.instagram.com/reel/C6uEBMwPQNQ/?igsh=MThiam81bDZqbDlmNg=="></iframe> -->
+      <!--! <iframe src="https://www.instagram.com/p/C6bvloCO53a/" frameborder="0"></iframe> -->
+      <!-- <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MqYY2WIDpyc?si=Mglj_jrlsCkKVRza"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe> -->
+    </section>
+  </body>
+</html>
